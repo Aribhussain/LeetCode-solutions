@@ -5,7 +5,7 @@ class listnode{
     listnode(int v) : val(v), next(nullptr) {}
 };
 class MyLinkedList {
-    listnode* head;
+    listnode* head;  // recomended to also use a tail pointer to optimise the code (following two pointer techneque)
     int size;
 public:
     MyLinkedList() {
